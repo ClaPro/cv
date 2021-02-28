@@ -1,31 +1,31 @@
 # Site
-repository: https://github.com/Haki-Malai
+repository: Haki-Malai/Resume
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Haki Malai
+title: Junior Software and Web Developer
+email: p17mala@ionio.gr
+website: www.github.com/Haki-Malai
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
+twitter_username: hakimalaj
+github_username:  Haki-Malai
+stackoverflow_username: Haki
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: mnms.reek
+#linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+youtube_username: Haki Malaj
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
