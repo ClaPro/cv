@@ -68,7 +68,13 @@ content:
         quote: >
           This project was almost published as a scientific paper but due to cooperation issues i had to cancel it. 
         description: | # this will include new lines to allow paragraphs
-          This project was made for the course called "Language Technology". In this group project we were assigned to train a model to 
+          This project was made for the course called "Language Technology". The main idea behind the work described is that social media are able to provide large datasets which can be helpful in identifying certain patterns that may occur in social media text, and in helping to automatically reveal cases of virus infections. My constribution in this project was:
+          - Collect Tweets and assign then to my associates so they label them as true or false
+          - Use SMOTE to bring balance dataset
+          - Apply machine learning algoriths on the data
+          - Create a bidirectional recurrent neural network
+          - Train the bidirectional recurrent neural network using 10-fold cross validation
+          - Create the GitHub repository
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
