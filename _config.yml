@@ -76,8 +76,6 @@ content:
           - Trained the bidirectional recurrent neural network using 10-fold cross validation
           - Created the GitHub repository
       - title: ''
-        link: ''
-        quote: ''
 
       - title: Pac-Man JavaScript
         link: https://github.com/Haki-Malai/Games/tree/main/Pac-Man%20JavaScript
@@ -93,7 +91,8 @@ content:
           The idea was to learn through this project but the result was amazing.
         description: | # this will include new lines to allow paragraphs
           This project was made for the course called "Entertainment Technology Software and Virtual Worlds". We were asked to build any game we like and i choose to implement Pac-Man using Vanilla JavaScript in order to master the fundumentals of HTML5, CSS and JavaScript. I am very proud of the result as it is not a casual Pac-Man implementation. I have even managed to sell a version of this game on fiverr.com.
-        
+      - title: ''
+
       - title: Other JavaScript Games
         link: https://github.com/Haki-Malai/Games
         # link_text: Project Website
@@ -108,6 +107,7 @@ content:
           A collection of games using HTML5, CSS and Javascript
         description: | # this will include new lines to allow paragraphs
           Some of these were made for clients on fiverr and have mobile versions. Some of them were sudoku variations and tetris.
+      - title: ''
 
       - title: Simple TCP-IP Chat
         link: https://github.com/Haki-Malai/Twisted-Simple-Tcp-Chat
@@ -155,7 +155,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      Alongside my interests in web and software developing some of my other interests and hobbies are:
       - Lifting Weights
       - Running
       - Riding the bike
