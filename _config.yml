@@ -18,14 +18,14 @@ darkmode: false
 twitter_username: hakimalaj
 github_username:  Haki-Malai
 stackoverflow_username: Haki
+instagram_username: mnms.reek
+youtube_username: Haki Malaj
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: mnms.reek
-#linkedin_username: jameswgrant
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: Haki Malaj
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -55,20 +55,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Identifying Covid-19 infection cases in Twitter text: A Machine Learning Approach
+        link: https://github.com/Haki-Malai/Covid-19-Tweet-Classifier
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Haki-Malai/Covid-19-Tweet-Classifier
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/Haki-Malai/Covid-19-Tweet-Classifier
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          This project was almost published as a scientific paper but due to cooperation issues i had to cancel it. 
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          This project was made for the course called "Language Technology". In this group project we were assigned to train a model to 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
