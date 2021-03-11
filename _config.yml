@@ -55,7 +55,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Identifying Covid-19 infection cases in Twitter text-A Machine Learning Approach
+      - title: Identifying Covid-19 infection cases in Twitter text-A Machine Learning Approach
         link: https://github.com/Haki-Malai/Covid-19-Tweet-Classifier
         # link_text: Project Website
         additional_links:
@@ -76,7 +76,7 @@ content:
           - Trained the bidirectional recurrent neural network using 10-fold cross validation
           - Created the GitHub repository
 
-        title: Pac-Man JavaScript
+      - title: Pac-Man JavaScript
         link: https://github.com/Haki-Malai/Games/tree/main/Pac-Man%20JavaScript
         # link_text: Project Website
         additional_links:
