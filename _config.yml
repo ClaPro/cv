@@ -91,22 +91,22 @@ content:
           The idea was to learn through this project but the result was amazing.
         description: | # this will include new lines to allow paragraphs
           This project was made for the course called "Entertainment Technology Software and Virtual Worlds". We were asked to build any game we like and i choose to implement Pac-Man using Vanilla JavaScript in order to master the fundumentals of HTML5, CSS and JavaScript. I am very proud of the result as it is not a casual Pac-Man implementation. I have even managed to sell a version of this game on fiverr.com.
-      content:
-        - layout: top-middle
-        title: Other JavaScript Games
-        link: https://github.com/Haki-Malai/Games
-        # link_text: Project Website
-        additional_links:
-          - title:  Haki-Malai/Games
-            icon: fab fa-github
-            url: github.com/Haki-Malai/Games
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          A collection of games using HTML5, CSS and Javascript
-        description: | # this will include new lines to allow paragraphs
-          Some of these were made for clients on fiverr and have mobile versions. Some of them were sudoku variations and tetris.
+      # content:
+      #   - layout: top-middle
+      #   title: Other JavaScript Games
+      #   link: https://github.com/Haki-Malai/Games
+      #   # link_text: Project Website
+      #   additional_links:
+      #     - title:  Haki-Malai/Games
+      #       icon: fab fa-github
+      #       url: github.com/Haki-Malai/Games
+      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #     #   icon: fab fa-github
+      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      #   quote: >
+      #     A collection of games using HTML5, CSS and Javascript
+      #   description: | # this will include new lines to allow paragraphs
+      #     Some of these were made for clients on fiverr and have mobile versions. Some of them were sudoku variations and tetris.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
