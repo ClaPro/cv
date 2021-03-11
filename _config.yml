@@ -55,7 +55,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Identifying Covid-19 infection cases in Twitter text: A Machine Learning Approach
+        title: |Identifying Covid-19 infection cases in Twitter text: A Machine Learning Approach
         link: https://github.com/Haki-Malai/Covid-19-Tweet-Classifier
         # link_text: Project Website
         additional_links:
@@ -68,13 +68,29 @@ content:
         quote: >
           This project was almost published as a scientific paper but due to cooperation issues i had to cancel it. 
         description: | # this will include new lines to allow paragraphs
-          This project was made for the course called "Language Technology". The main idea behind the work described is that social media are able to provide large datasets which can be helpful in identifying certain patterns that may occur in social media text, and in helping to automatically reveal cases of virus infections. My constribution in this project was:
-          - Collect Tweets and assign then to my associates so they label them as true or false
-          - Use SMOTE to bring balance dataset
-          - Apply machine learning algoriths on the data
-          - Create a bidirectional recurrent neural network
-          - Train the bidirectional recurrent neural network using 10-fold cross validation
-          - Create the GitHub repository
+          This project was made for the course called "Language Technology". The main idea behind the work described is that social media are able to provide large datasets which can be helpful in identifying certain patterns that may occur in social media text, and in helping to automatically reveal cases of virus infections. My constribution to this project was:
+          - Collected Tweets and assign then to my associates so they label them as true or false
+          - Used SMOTE to bring balance dataset
+          - Applied machine learning algoriths on the data
+          - Created a bidirectional recurrent neural network
+          - Trained the bidirectional recurrent neural network using 10-fold cross validation
+          - Created the GitHub repository
+
+        - layout: top-middle
+        title: Pac-Man JavaScript
+        link: https://github.com/Haki-Malai/Games/tree/main/Pac-Man%20JavaScript
+        # link_text: Project Website
+        additional_links:
+          - title:  Haki-Malai/Games/Pac-Man JavaScript
+            icon: fab fa-github
+            url: github.com/Haki-Malai/Games/tree/main/Pac-Man%20JavaScript
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          The idea was to learn through this project but the result was amazing.
+        description: | # this will include new lines to allow paragraphs
+          This project was made for the course called "Entertainment Technology Software and Virtual Worlds". We were asked to build any game we like and i choose to implement Pac-Man using Vanilla JavaScript in order to master the fundumentals of HTML5, CSS and JavaScript. I am very proud of the result as it is not a casual Pac-Man implementation. I have even managed to sell a version of this game on fiverr.com.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
