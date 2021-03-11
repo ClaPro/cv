@@ -75,6 +75,10 @@ content:
           - Created a bidirectional recurrent neural network
           - Trained the bidirectional recurrent neural network using 10-fold cross validation
           - Created the GitHub repository
+      - title: ''
+        link: ''
+        quote: ''
+        description: ''
 
       - title: Pac-Man JavaScript
         link: https://github.com/Haki-Malai/Games/tree/main/Pac-Man%20JavaScript
