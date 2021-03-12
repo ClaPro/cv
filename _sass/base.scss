@@ -4,6 +4,9 @@
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
   appearance: none;
   background-color: #477dca;
   border: 0;
@@ -36,6 +39,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
       background-color: #477dca; }
 
 fieldset {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
   background-color: #f7f7f7;
   border: 1px solid #ddd;
   margin: 0 0 0.75rem;
@@ -44,6 +50,9 @@ fieldset {
 input,
 label,
 select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
   display: block;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1rem; }
@@ -112,6 +121,9 @@ html {
   box-sizing: inherit; }
 
 .btn {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
   border: none;
   font-family: inherit;
   font-size: inherit;
