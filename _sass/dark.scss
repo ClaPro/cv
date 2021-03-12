@@ -1,21 +1,18 @@
-.dark {
-  background: radial-gradient(
-        circle,
-        rgb(3, 37, 32) 0%,
-        rgba(0, 26, 22, 0.726) 39%,
-        rgba(0, 12, 10, 0.705) 69%,
-        rgb(0, 10, 10) 100%
-    );
+body {
+	background: linear-gradient(-45deg, #5e1e09, #66072a, #053d0c, #42022f);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
   color: #e6e6e6;
 }
 
-.dark {
-  mark {
-    color: #222;
-    background-color: #e6e6e6;
-  }
-
-  a {
-    color: #477dca;
-  }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
