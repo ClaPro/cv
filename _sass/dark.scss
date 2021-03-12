@@ -1,5 +1,11 @@
 .dark {
-  background-color: #222;
+  background: radial-gradient(
+        circle,
+        rgb(3, 37, 32) 0%,
+        rgba(0, 26, 22, 0.726) 39%,
+        rgba(0, 12, 10, 0.705) 69%,
+        rgb(0, 10, 10) 100%
+    );
   color: #e6e6e6;
 }
 
