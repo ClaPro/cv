@@ -48,7 +48,7 @@ youtube_username: Haki Malaj
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, my name is Haki and i am a junior software and web developer.
+  Hello, my name is Haki and i was born in Corinth, Greece. I have an innate love on algorithms, solving complex issues, creating and learning. Currently i am studing for my informatics degree in Ionian University and working on a AI Techno Synthesizer and on an Web Application for Secure Communication. I have experience on developing apps for clients through freelancing, have experience in a variety of computer languages and have experience as on working as team when it comes to manipulating code.
 
 content:
   - title: Projects # Title for the section
