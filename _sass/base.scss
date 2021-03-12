@@ -5,6 +5,7 @@
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-touch-callout: none;
+  text-shadow: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   appearance: none;
@@ -121,6 +122,7 @@ html {
   box-sizing: inherit; }
 
 .btn {
+  text-shadow: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
