@@ -169,7 +169,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: https://github.com/Haki-Malai/Resume
+remote_theme: build
 
 sass:
   sass_dir: _sass
