@@ -9,7 +9,7 @@ version: 2
 name: Haki Malai
 title: Junior Software and Web Developer
 email: p17mala@ionio.gr
-# website: www.github.com/Haki-Malai
+website: www.github.com/Haki-Malai
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -32,7 +32,7 @@ youtube_username: Haki Malaj
 # Additional icon links
 additional_links:
 - title: pdf download
-  icon: pdf
+  icon: pdf.ico
   url: https://www.itsgoingto.be
 
 # Google Analytics and Tag Manager
