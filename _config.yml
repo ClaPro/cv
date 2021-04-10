@@ -9,7 +9,7 @@ version: 2
 name: Haki Malai
 title: Junior Software and Web Developer
 email: p17mala@ionio.gr
-website: www.github.com/Haki-Malai
+# website: www.github.com/Haki-Malai
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -18,7 +18,7 @@ darkmode: false
 twitter_username: hakimalaj
 github_username:  Haki-Malai
 stackoverflow_username: Haki
-instagram_username: mnms.reek
+instagram_username: haki.malai
 youtube_username: Haki Malaj
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -32,8 +32,8 @@ youtube_username: Haki Malaj
 # Additional icon links
 additional_links:
 - title: pdf download
-  icon: pdf.ico
-  url: https://www.itsgoingto.be
+  icon: pdf
+  url: https://github.com/Haki-Malai/Resume/raw/main/pdf/cv.pdf
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
