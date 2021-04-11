@@ -1,9 +1,16 @@
 body {
-	background: linear-gradient(-45deg, #6d686600, #4b4b4b65, #818181);
+	background: linear-gradient(
+		-45deg, 
+		#00000000, 
+		#25252565, 
+		#4e4e4e
+		#616161,
+		#707070
+	);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-  color: #e6e6e6;
-  text-shadow: 6px 4px 9px rgba(5,3,3,0.76);
+	color: #e6e6e6;
+	text-shadow: 6px 4px 9px rgba(5,3,3,0.76);
 }
 
 @keyframes gradient {
