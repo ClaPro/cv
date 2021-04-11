@@ -80,7 +80,7 @@ content:
 
       - title: Pac-Man JavaScript
         link: https://github.com/Haki-Malai/Games/tree/main/Pac-Man%20JavaScript
-        # link_text: Project Website
+        link_text: Github Website
         additional_links:
           - title:  Haki-Malai/Games/Pac-Man JavaScript
             icon: fab fa-github
@@ -96,7 +96,7 @@ content:
 
       - title: Other JavaScript Games
         link: https://github.com/Haki-Malai/Games
-        # link_text: Project Website
+        link_text: Github Website
         additional_links:
           - title:  Haki-Malai/Games
             icon: fab fa-github
@@ -112,7 +112,7 @@ content:
 
       - title: Simple TCP-IP Chat
         link: https://github.com/Haki-Malai/Twisted-Simple-Tcp-Chat
-        # link_text: Project Website
+        link_text: Github Website
         additional_links:
           - title:  Haki-Malai/Twisted-Simple-Tcp-Chat
             icon: fab fa-github
