@@ -36,7 +36,7 @@ additional_links:
   icon: far fa-file-pdf
   url: https://github.com/Haki-Malai/Resume/raw/main/pdf/cv.pdf
 - title: Send mail to p17mala@ionio.gr
-  icon: fas fa-paper-plane
+  icon: fas fa-envelope
   url: mailto:p17mala@ionio.gr
 
 # Google Analytics and Tag Manager
