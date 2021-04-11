@@ -34,6 +34,9 @@ additional_links:
 - title: pdf download
   icon: pdf
   url: https://github.com/Haki-Malai/Resume/raw/main/pdf/cv.pdf
+- title: mail
+  icon: mail
+  url: mailto:p17mala@ionio.gr
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
