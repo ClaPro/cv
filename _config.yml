@@ -157,13 +157,11 @@ content:
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in web and software developing some of my other interests and hobbies are:
       - Lifting Weights
-      - Running
       - Riding the bike
       - Hanging out with friends
-      - Gaming
-      - Learning
-      - Listening to music
-      - Playing and studing chess
+      - Video games
+      - Music
+      - Chess
 
 # Footer
 footer_show_references: true
