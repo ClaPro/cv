@@ -9,7 +9,7 @@ version: 2
 name: Haki Malai
 title: Junior Software and Web Developer
 phone: 6955065511
-# email: p17mala@ionio.gr
+email: p17mala@ionio.gr
 # website: www.github.com/Haki-Malai
 
 # Dark Mode (true/false/never)
@@ -58,7 +58,7 @@ content:
       - layout: top-middle
       - title: Identifying Covid-19 infection cases in Twitter text-A Machine Learning Approach
         link: https://github.com/Haki-Malai/Covid-19-Tweet-Classifier
-        # link_text: Project Website
+        link_text: Project Website
         additional_links:
           - title:  Haki-Malai/Covid-19-Tweet-Classifier
             icon: fab fa-github
