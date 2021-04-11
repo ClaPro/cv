@@ -37,7 +37,7 @@ additional_links:
   url: https://github.com/Haki-Malai/Resume/raw/main/pdf/cv.pdf
 - title: Send mail to p17mala@ionio.gr
   icon: fas fa-paper-plane
-  url: p17mala@ionio.gr
+  url: mailto:p17mala@ionio.gr
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
