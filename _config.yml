@@ -8,6 +8,7 @@ version: 2
 # Personal info
 name: Haki Malai
 title: Junior Software and Web Developer
+phone: 6955065511
 # email: p17mala@ionio.gr
 # website: www.github.com/Haki-Malai
 
@@ -17,7 +18,7 @@ darkmode: false
 # Social links
 twitter_username: hakimalaj
 github_username:  Haki-Malai
-stackoverflow_username: Haki
+stackoverflow_username: 14310052
 instagram_username: haki.malai
 youtube_username: Haki Malaj
 # dribbble_username: jekyll
