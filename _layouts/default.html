@@ -21,15 +21,13 @@
                       <div class="container {{ section.layout }}-container">
                           <h3>{{ section.title }}</h3>
                           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+                          {%- if section.title == "skills" -%}
+                              {% include {{ append: ".html" }} content=skills %}
+                          {%- endif -%}
                       </div>
                   {% endfor %}
               {% else %}
                   {%- include v1/default.html -%}
-              {%- endif -%}
-              
-              {%- include skills.html -%}
-              {%- if site.skills %}
-                  {%- include skills.html -%}
               {%- endif -%}
         </div>
     </main>
