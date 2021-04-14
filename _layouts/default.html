@@ -22,7 +22,7 @@
                           <h3>{{ section.title }}</h3>
                           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
                           {%- if section.title == "skills" -%}
-                              {% include skills.html" %}
+                              {%- include skills.html" -%}
                           {%- endif -%}
                       </div>
                   {% endfor %}
