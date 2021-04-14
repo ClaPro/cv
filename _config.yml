@@ -155,17 +155,6 @@ content:
 
   - title: Skills
     layout: list
-    content:
-      - layout: left
-        title: Freelancing on Fiverr
-        link: fiverr.com
-        # link_text: boringcompany.com
-        sub_title: Freelancer
-        caption: November 2020 - Present
-        quote: >
-          2d game development for desktop and mobile and machine learning applications.
-        description: | # this will include new lines to allow paragraphs
-            Collected a lot of experience on dealing with clients and giving them what they ask for on a deadline. Helped me to maintain my skillset and make some side money.
 
   - title: A Little More About Me
     layout: text
