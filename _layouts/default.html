@@ -22,11 +22,11 @@
                         <h3>{{ section.title }}</h3>
                         {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
                       </div>
-                      {%- include skills.html -%}
                   {% endfor %}
               {% else %}
                   {%- include v1/default.html -%}
               {%- endif -%}
+              {%- include skills.html -%}
         </div>
     </main>
 
