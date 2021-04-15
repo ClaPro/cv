@@ -20,7 +20,7 @@ twitter_username: hakimalaj
 github_username:  Haki-Malai
 stackoverflow_username: "14310052"
 instagram_username: haki.malai
-youtube_username: Haki Malaj
+youtube_username: channel/UCIMICfQIEMqokmpLbGEJRKA
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
@@ -154,10 +154,27 @@ content:
         #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
   - title: Skills
     layout: skills
-    content: # 5/10
+    content:
       - layout: left
         title: Python
-        level: 5 
+        level: 7 #MAX 10 MIN 0 
+    content:
+      - layout: left
+        title: JavaScript
+        level: 7
+    content:
+      - layout: left
+        title: Machine Learning
+        level: 6
+    content:
+      - layout: left
+        title: C/C++
+        level: 5
+    content:
+      - layout: left
+        title: SQL
+        level: 4
+    
   
   - title: A Little More About Me
     layout: text
