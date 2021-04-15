@@ -3,7 +3,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 }
 window.onload = (event) => {
   console.log('1')
-  var elements = document.getElementsByClassName('.level-bar-inner').width
+  var elements = document.getElementsByClassName('.level-bar-inner')
   for (let i = 0; i < elements.length; i++) {
     elements[i].style.width = '300 px'
   }
