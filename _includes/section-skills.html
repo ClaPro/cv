@@ -1,5 +1,5 @@
-{% for skill in include.content %}
-  {% for skill in include.content.content %}
+{% for item in include.content %}
+  {% for skill in item.content %}
     <div class="row clearfix layout layout-{{skill.layout | default: 'left'}}">
       <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
         <h4>{{ skill.title }}</h4> 
