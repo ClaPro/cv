@@ -153,7 +153,7 @@ content:
 
         #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
   - title: Skills
-    layout: list
+    layout: skills
     content: # 5/10
       - layout: left
         title: Python
