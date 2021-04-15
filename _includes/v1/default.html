@@ -10,6 +10,10 @@
   {%- include v1/education.html -%}
 {%- endif -%}
 
+{%- if site.data.skills.size > 0 -%}
+  {%- include v1/skill.html -%}
+{%- endif -%}
+
 {%- if site.more_content -%}
   {%- include v1/more.html -%}
 {%- endif -%}
