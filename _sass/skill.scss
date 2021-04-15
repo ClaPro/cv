@@ -1,8 +1,10 @@
 .level-bar {
     height: 12px;
+    width: 4px;
     background: black;
 }
 .level-bar-inner {
     height: 12px;
+    width: 4px;
     background: lighten(rgba(255, 255, 255, 0.6), 15%);
 }
