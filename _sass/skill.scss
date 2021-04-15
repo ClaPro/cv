@@ -1,13 +1,14 @@
 .level-bar {
-    height: 12px;
-    width: 200px;
+    height: 20px;
+    width: 400px;
     background: black;
     display: inline-block;
     float:left;
+    border-radius: 5px;
 }
 .level-bar-inner {
-    height: 12px;
-    width: 100px;
+    height: 20px;
+    width: 200px;
     display: inline-block;
     background: lighten(rgba(255, 255, 255, 0.6), 15%);
     float:left;
