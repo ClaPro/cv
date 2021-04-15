@@ -2,9 +2,11 @@
     height: 12px;
     width: 200px;
     background: black;
+    display: inline-block;
 }
 .level-bar-inner {
     height: 12px;
     width: 100px;
+    display: inline-block;
     background: lighten(rgba(255, 255, 255, 0.6), 15%);
 }
