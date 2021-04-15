@@ -1,14 +1,11 @@
 {% for skill in include.content %}
   <div class="row clearfix layout layout-{{skill.layout | default: 'left'}}">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4>{{ skill.title }}</h4>
-    </div>
-    <div class="skills-container">
-      <h3 class="level-title"></h3>
-          <div class="level-bar">
-                  <div class="level-bar-inner">
-                  </div>
+      <h4>{{ skill.title }}</h4> 
+      <div class="level-bar">
+          <div class="level-bar-inner">
           </div>
+      </div>
     </div>
   </div>
 {% endfor %}

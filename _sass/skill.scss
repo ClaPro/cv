@@ -1,19 +1,8 @@
-.skillset {
-    .item {
-        margin-bottom: 15px;
-        overflow: hidden;
-    }
-    .level-title {
-        font-size: 14px;
-        margin-top: 0;
-        margin-bottom: 12px;
-    }
-    .level-bar {
-        height: 12px;
-        background: black;
-    }
-    .level-bar-inner {
-        height: 12px;
-        background: lighten(rgba(255, 255, 255, 0.6), 15%);
-    }
+.level-bar {
+    height: 12px;
+    background: black;
+}
+.level-bar-inner {
+    height: 12px;
+    background: lighten(rgba(255, 255, 255, 0.6), 15%);
 }
