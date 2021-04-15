@@ -5,6 +5,6 @@ window.onload = (event) => {
   var elements = document.getElementsByClassName('level-bar-inner')
   for (let i = 0; i < elements.length; i++) {
     elements[i].style.width = '300px'
-    console.log(elements[i].dataset())
+    console.log(elements[i].dataset)
   }
 }
