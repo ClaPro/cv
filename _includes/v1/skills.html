@@ -1,7 +1,8 @@
-<div class="container skills-container">
-    <h3>{{ site.skills_title | default: "Skills" }}</h3>
-    {% for skill in site.data.skill %}
-      {% include {{ skill.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=skill %}
-    {% endfor %}
+<div class="skills-container">
+    <h3 class="level-title"></h3>
+        <div class="level-bar">
+                <div class="level-bar-inner">
+                </div>
+        </div>
 </div>
-  
+    
