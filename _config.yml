@@ -157,7 +157,7 @@ content:
     content: # 5/10
       - layout: left
         title: Python
-        #level: 5 
+        level: 5 
   
   - title: A Little More About Me
     layout: text
