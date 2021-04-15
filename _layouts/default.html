@@ -21,9 +21,7 @@
                     
                         <div class="container {{ section.layout }}-container">
                             <h3>{{ section.title }}</h3>
-                                {%- if section.title != 'Skills' -%}
-                                    {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
-                                {%- endif -%}
+                                {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
                         </div>
 
                     {% endfor %}
