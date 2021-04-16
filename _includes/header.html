@@ -76,9 +76,9 @@
             </a>
           </li>
         {%- endif -%}
-        {%- if site.youtube_username -%}
+        {%- if site.youtube_link -%}
           <li>
-            <a target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="unselectable button button--sacnite button--round-l">
+            <a target="_blank" href="https://www.youtube.com/{{site.youtube_link}}" class="unselectable button button--sacnite button--round-l">
               <i class="unselectable fab fa-youtube" title="Youtube link"></i>
             </a>
           </li>
