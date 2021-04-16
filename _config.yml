@@ -165,8 +165,7 @@ content:
         level: 5
       - title: SQL
         level: 4
-    
-  
+      - title:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
