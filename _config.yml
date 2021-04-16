@@ -154,25 +154,15 @@ content:
         #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
   - title: Skills
     layout: skills
-    content:
-      - layout: left
-        title: Python
-        level: 7 #MAX 10 MIN 0 
-    content:
-      - layout: left
-        title: JavaScript
+      - title: Python
+        level: 7 #MAX 10 MIN 0
+      - title: JavaScript
         level: 7
-    content:
-      - layout: left
-        title: Machine Learning
+      - title: Machine Learning
         level: 6
-    content:
-      - layout: left
-        title: C/C++
+      - title: C/C++
         level: 5
-    content:
-      - layout: left
-        title: SQL
+      - title: SQL
         level: 4
     
   
