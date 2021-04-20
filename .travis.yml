@@ -1,4 +1,8 @@
 language: ruby
+sudo: true
 rvm:
-  - 2.2
-  - jruby
+  - 2.7.1
+notifications:
+  email:
+    on_success: false
+    on_failure: always
