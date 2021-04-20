@@ -2,6 +2,21 @@ language: ruby
 sudo: true
 rvm:
   - 2.7.1
+before_install:
+- sudo apt-get install pandoc
+- gem install asciidoctor
+- sudo apt-get install lmodern
+install:
+  - sudo apt-get install texlive-full
+script:
+  - pandoc https://haki-malai.github.io/cv/ -f html-native_divs -o cv.pdf --latex-engine=xelatex
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: main
 notifications:
   email:
     on_success: false
