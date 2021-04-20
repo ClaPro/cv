@@ -1,23 +1,38 @@
-language: ruby
+language: c
 sudo: true
-rvm:
-  - 2.7.1
+
+cache:
+  directories:
+  - $HOME/.stack
+  - /usr/local/texlive/2016/bin/x86_64-linux
+addons:
+  apt:
+    packages:
+    - libgmp-dev
+    - xzdec
 before_install:
-- sudo apt-get install pandoc
-- gem install asciidoctor
-- sudo apt-get install lmodern
+- mkdir -p $HOME/.local/bin
+- travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
+
 install:
-  - sudo apt-get install texlive-full
-script:
-  - pandoc https://haki-malai.github.io/cv/ -f html-native_divs -o cv.pdf --latex-engine=xelatex
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  keep_history: true
-  on:
-    branch: main
+- stack setup
+- stack install pandoc
+script: make travis
 notifications:
   email:
-    on_success: false
+    on_success: always
     on_failure: always
+after_success: bash .ci/update_pages.sh
+before_deploy: bash .ci/build_pdf.sh
+deploy:
+  provider: releases
+  file: Vaibhav_Sagar_resume.pdf
+  on:
+    repo: vaibhavsagar/resume
+    all_branches: true
+    tags: true
+  api_key:
+    secure: gtBPUeDXL9S6h4aWyXCEhWxbtkATx2lIBmkVTcWDHMvgwQHmfo42OPq7rQWjO6g/iOlv71Q1VQMQc84ERcZjtBRSE0pb1s1Baqs2Hk7ec/JeWsEXDZmBIs/Z3V6pHb14zCs5GNYyerXDpQ97P4RG9Vjdy+rc3I1+kkuCMF7zB3k=
+env:
+  global:
+    secure: Bzof/7yN7HgV2eJk7FNliNx/cagIU4I113SwNJhChFyYOSy816oPrwQaCMyZuwvbcEIfLMY0K0qxtQK1MoPq7zTYiCTW3UPB2+mzTfTHPMTm5nWjZv0BmdqVoG8IJwxfo5cIV8hfKiu2ezNKcDuqgwb80mYwpTwlQPsY9gOm1Tc=
