@@ -7,4 +7,4 @@
       - More buttons with additional icon
       - Used git hooks for automatical re-creation of a pdf file of the resume. For more details visit this short [clip](https://asciinema.org/a/412412) where these get demonstrated.
 
-[ORIGINAL TEMPLATE HERE](https://github.com/sproogen/modern-resume-theme) made by sproogen.
+Original template [here](https://github.com/sproogen/modern-resume-theme) made by sproogen.
