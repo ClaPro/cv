@@ -155,17 +155,16 @@ content:
   - title: Skills
     layout: skills
     content:
-      - title: Python
+      - title: Python/JavaScript
         level: 7 #MAX 10 MIN 0
-      - title: JavaScript
-        level: 7
-      - title: Machine Learning
+      - title: Machine Learning Classification/Networks/Git/GitHub/Linux
         level: 6
-      - title: C/C++
+      - title: C/C++/SQL/Matlab
         level: 5
-      - title: SQL
+      - title: PHP/Docker
         level: 4
-      - title:
+      - title: WordPress/ReactJS/Ruby
+        level: 3
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
