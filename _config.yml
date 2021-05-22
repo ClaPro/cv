@@ -155,7 +155,7 @@ content:
   - title: Skills
     layout: skills
     content:
-      - title: Python/JavaScript
+      - title: Python/JavaScript/HTML5/CSS
         level: 7 #MAX 10 MIN 0
       - title: Machine Learning Classification/Networks/Git/GitHub/Linux
         level: 6
@@ -167,7 +167,7 @@ content:
         level: 3
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: | # This will include new lines to allow paragraphs
       Alongside my interests in web and software developing some of my other interests and hobbies are:
       - Lifting weights
       - Riding the bike
@@ -179,7 +179,7 @@ content:
 
 # Footer
 footer_show_references: false
-# references_title: References on request (Override references text)
+# References_title: References on request (Override references text)
 
 # Build settings
 remote_theme: Haki-Malai/Resume
