@@ -93,6 +93,19 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project was made for the course called "Entertainment Technology Software and Virtual Worlds". We were asked to build any game we like and i choose to implement Pac-Man using Vanilla JavaScript in order to master the fundumentals of HTML5, CSS and JavaScript. I am very proud of the result as it is not a casual Pac-Man implementation. I have even managed to sell a version of this game on fiverr.com.
       - title: ''
+      
+      - title: nn_audio
+        link: https://github.com/Haki-Malai/nn_audio
+        link_text: Github Link
+        additional_links:
+          - title:  Haki-Malai/nn_audio
+            icon: fab fa-github
+            url: github.com/Haki-Malai/nn_audio
+        quote: >
+          A simple script for everyone to make his own audio classification model.
+        description: | # this will include new lines to allow paragraphs
+          This project was made for the course called "Speech and Audio Processing".
+      - title: ''
 
       - title: Other JavaScript Games
         link: https://github.com/Haki-Malai/Games
