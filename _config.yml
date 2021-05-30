@@ -9,9 +9,9 @@ version: 2
 name: Haki Malai
 title: Junior Software and Web Developer
 phone: 6955065511
-email:
-    - title:  hakimalaj@outlook.com
-    - title:  p17mala@ionio.com
+emails:
+    - email:  hakimalaj@outlook.com
+    - email:  p17mala@ionio.com
 # website: www.github.com/Haki-Malai
 
 # Dark Mode (true/false/never)
