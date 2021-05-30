@@ -106,8 +106,8 @@
         {% endfor %}
       </ul>
 
-      {%- if site.email -%}
-        {% for email in site.email %}    
+      {%- if site.emails -%}
+        {% for email in site.emails %}    
             <p>
               {{ email.title | default: "Email" }}: <a href="mailto:{{ email }}" target="_blank">{{ email | escape }}</a>
             </p>
