@@ -10,8 +10,8 @@ name: Haki Malai
 title: Junior Software and Web Developer
 phone: 6955065511
 emails:
-    - email:  hakimalaj@outlook.com
-    - email:  p17mala@ionio.com
+ - email:  hakimalaj@outlook.com
+ - email:  p17mala@ionio.com
 # website: www.github.com/Haki-Malai
 
 # Dark Mode (true/false/never)
@@ -40,6 +40,9 @@ additional_links:
 - title: Send mail to p17mala@ionio.gr
   icon: fas fa-envelope
   url: mailto:p17mala@ionio.gr
+- title: Send mail to hakimalaj@outlook.com
+  icon: fas fa-envelope
+  url: mailto:hakimalaj@outlook.com
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
