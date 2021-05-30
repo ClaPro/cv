@@ -6,5 +6,6 @@ Additional Code made by me(no pr send):
 - Font change and font shadow
 - More buttons with additional icon
 - Used git hooks for automatical re-creation of a pdf file of the resume. For more details visit this short [asciinema clip](https://asciinema.org/a/412412) where these get demonstrated.
+- Ability for aditional emails
 
 Original template [here](https://github.com/sproogen/modern-resume-theme) made by sproogen.
