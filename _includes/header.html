@@ -107,11 +107,11 @@
       </ul>
 
       {%- if site.emails -%}
-        {% for email in site.emails %}    
+            
             <p>
-              {{ email.title | default: "Email" }}: <a href="mailto:{{ email }}" target="_blank">{{ email | escape }}</a>
+              {{ site.emails.title | default: "Email" }}: <a href="mailto:{{ site.emails }}" target="_blank">{{ site.emails | escape }}</a>
             </p>
-        {% end for %}
+        
       {%- endif -%}
       {%- if site.phone -%}
         <p>
