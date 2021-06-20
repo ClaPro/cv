@@ -175,13 +175,13 @@ content:
     content:
       - title: Python/JavaScript/HTML5/CSS
         level: 7 #MAX 10 MIN 0
-      - title: Machine Learning Classification/Networks/Git/GitHub/Linux
+      - title: Machine Learning Classification/Networks/Git/GitHub/Linux/SQL/Flask
         level: 6
-      - title: C/C++/SQL/Matlab
+      - title: C/C++/Matlab/Networks/Penetration Testing
         level: 5
-      - title: PHP/Docker
+      - title: PHP/Docker/ReactJS
         level: 4
-      - title: WordPress/ReactJS/Ruby
+      - title: WordPress/Ruby
         level: 3
   - title: A Little More About Me
     layout: text
