@@ -37,9 +37,6 @@ additional_links:
 - title: Pdf Download
   icon: far fa-file-pdf
   url: https://github.com/Haki-Malai/Resume/raw/main/pdf/cv.pdf
-- title: Send mail to p17mala@ionio.gr
-  icon: fas fa-envelope
-  url: mailto:p17mala@ionio.gr
 - title: Send mail to hakimalaj@outlook.com
   icon: fas fa-envelope
   url: mailto:hakimalaj@outlook.com
@@ -60,6 +57,25 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+      - title: Sudoku Solver
+        link: https://github.com/Haki-Malai/sudoku-smart-solver
+        link_text: Project Website
+        additional_links:
+          - title:  Haki-Malai/sudoku-smart-solver
+            icon: fab fa-github
+            url: github.com/Haki-Malai/sudoku-smart-solver
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Solving sudokus is a complex mathematics problem 
+        description: | # this will include new lines to allow paragraphs
+          This project was...
+
+      - title: ''
+
+
       - layout: top-middle
       - title: Identifying Covid-19 infection cases in Twitter text-A Machine Learning Approach
         link: https://github.com/Haki-Malai/Covid-19-Tweet-Classifier
