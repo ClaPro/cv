@@ -71,7 +71,7 @@ content:
         quote: >
           Solving sudokus is a complex mathematics problem 
         description: | # this will include new lines to allow paragraphs
-          This project was...
+          This project was done with the purpose of me learning some react-js, php and java. Te a sudoku solver was chosen from me because it may sound simple but in reality if someone has or wants to be able to solve a sudoku really fast it is necessery to use double-linked lists as with backtracking very often it is needed a big number of recursions for the solution of the problem. Also, it is necessery to have a server that solver the problem as JavaScript has a limit on recursions that can occur, even if double linked lists will be used. This use of linked lists is called "Dancing Links".
 
       - title: ''
 
